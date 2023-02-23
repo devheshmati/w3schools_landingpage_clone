@@ -1,35 +1,53 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Landing page 01</title>
-  <link rel="stylesheet" href="bootstrap.css">
+  <link rel="stylesheet" href="styles/bootstrap.css">
+  <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
-  <div class="container-fluid p-5 text-center bg-primary text-white">
-    <h1>My first bootstrap page</h1>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit, quidem?</p>
+  <div class="container mt-2">
+    <table class="table table-striped table-hover table-bordered">
+      <thead>
+        <tr>
+          <th>Title 1</th>
+          <th>Title 2</th>
+          <th>Title 3</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Reza</td>
+          <td>HormozManesh</td>
+          <td>Karaj</td>
+        </tr>
+        <tr>
+          <td>Reza</td>
+          <td>HormozManesh</td>
+          <td>Karaj</td>
+        </tr>
+        <tr>
+          <td>Reza</td>
+          <td>HormozManesh</td>
+          <td>Karaj</td>
+        </tr>
+      </tbody>
+    </table>
   </div>
 
-  <div class="container mt-5">
-    <div class="row">
-      <div class="col bg-secondary p-3 text-white m-1">
-        <h3>Column 1</h3>
-        <p>Lorem ipsum dolor sit amet...</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, ad!</p>
-      </div>
-      <div class="col bg-secondary p-3 text-white m-1">
-        <h3>Column 1</h3>
-        <p>Lorem ipsum dolor sit amet...</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, ad!</p>
-      </div>
-      <div class="col bg-secondary p-3 text-white m-1">
-        <h3>Column 1</h3>
-        <p>Lorem ipsum dolor sit amet...</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, ad!</p>
+  <div class="container">
+    <div class="alert alert-primary alert-dismissible fade show">
+      <button class="btn-close" data-bs-dismiss="alert" type="button"></button>
+      <p class="p-0 m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, id?</p>
+      <div class="d-grid w-50">
+        <button type="button" class="btn btn-outline-primary">
+          <span class="spinner-border spinner-border-sm"></span>
+          ClickMe
+        </button>
       </div>
     </div>
   </div>
