@@ -9,19 +9,17 @@
 </head>
 
 <body>
-  <div class="container">
-    <div class="btn-group">
-      <button class="btn btn-secondary">BTN1</button>
-      <button class="btn btn-warning">BTN2</button>
-      <button class="btn btn-info">BTN3</button>
-      <div class="btn-group">
-        <button class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">DropDown</button>
-        <ul class="dropdown-menu">
-          <li class="dropdown-item">Item 1</li>
-          <li class="dropdown-item">Item 2</li>
-          <li class="dropdown-item">Item 3</li>
-        </ul>
-      </div>
+  <div class="container mt-5">
+    <div class="d-grid">
+      <button class="btn btn-primary text-white" data-bs-toggle="collapse" data-bs-target="#test">Show info</button>
+    </div>
+
+    <div class="collapse bg-dark text-white mt-2" id="test">
+      <h3 class="px-3 pt-3">Hello</h3>
+      <p class="p-0 m-0 px-3 pb-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi rem modi accusantium
+        asperiores, perspiciatis
+        nobis quae consequuntur possimus soluta accusamus eaque dolore delectus illo deleniti aspernatur deserunt, at
+        officia voluptas?</p>
     </div>
   </div>
 
