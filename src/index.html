@@ -1,29 +1,40 @@
+<!doctype html>
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="veiwport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" href="styles/bootstrap.css">
   <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
-  <div class="container mt-5">
-    <div class="d-grid">
-      <button class="btn btn-primary text-white" data-bs-toggle="collapse" data-bs-target="#test">Show info</button>
-    </div>
+  <div class="offcanvas offcanvas-end" id="demo">
+   <div class="offcanvas-header">
+     <h1 class="offcanvas-title">Header</h1>
+     <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+   </div> 
+   <div class="offcanvas-body">
+     <p>Lorem ipsum dolor sit amet.</p>
+     <p>Lorem ipsum dolor sit amet.</p>
+     <p>Lorem ipsum dolor sit amet.</p>
+     <p>Lorem ipsum dolor sit amet.</p>
+     <button type="button" class="btn btn-secondary">Button</button>
+   </div>
+  </div>
 
-    <div class="collapse bg-dark text-white mt-2" id="test">
-      <h3 class="px-3 pt-3">Hello</h3>
-      <p class="p-0 m-0 px-3 pb-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi rem modi accusantium
-        asperiores, perspiciatis
-        nobis quae consequuntur possimus soluta accusamus eaque dolore delectus illo deleniti aspernatur deserunt, at
-        officia voluptas?</p>
-    </div>
+  <div class="container">
+    <h3>Header 1</h3>
+    <p class="p-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore dolore tempora nemo facere possimus
+      numquam voluptatum deserunt, quo quibusdam. Repellat quo possimus at aperiam nobis sapiente consectetur numquam
+      quos quidem!
+    </p>
+    <button type="button" class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#demo">ClickMe</button>
   </div>
 
   <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="scripts/script.js"></script>
 </body>
 
 </html>
