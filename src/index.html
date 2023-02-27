@@ -13,22 +13,28 @@
 
 <body>
   <div class="container mt-2">
-    <form>
-      <input id="color-input" type="color" class="form-control form-control-color" value="#CCCCCC">
-      <div id="showColor" class="bg-primary" style="width:100px;height:100px;"></div>
+    <form class="bg-light p-4 rounded mt-5 mx-auto shadow" style="width:400px;">
+      <div class="my-3">
+        <label class="form-label" for="email">Email</label>
+        <input type="email" class="form-control" id="email" name="email" placeholder="Enter Email">
+      </div>
+      <div class="mb-3">
+        <label class="form-label" for="password">Password</label>
+        <input id="password" name="password" type="password" class="form-control" placeholder="Enter Password">
+      </div>
+      <div class="form-check mb-3">
+        <label class="form-check-label" for="remember">
+          <input type="checkbox" id="remember" class="form-check-input" name="remember">
+          Remember me
+        </label>
+      </div>
+      <div class="d-grid">
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
     </form>
   </div>
 
   <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-  <script>
-    let colorInput = document.querySelector('#color-input');
-    let showColor = document.querySelector('#showColor')
-
-    colorInput.addEventListener('change', function (e) {
-      showColor.classList.remove("bg-primary")
-      showColor.style.background = e.target.value;
-    })
-  </script>
 </body>
 
 </html>
