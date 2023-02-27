@@ -13,34 +13,22 @@
 
 <body>
   <div class="container mt-2">
-    <div class="d-flex bg-warning mt-2 justify-content-end">
-      <span class="text-white bg-primary p-2">text1</span>
-      <span class="bg-secondary text-white p-2">text2</span>
-      <span class="bg-info p-2">text3</span>
-    </div>
-    <div class="d-flex flex-row-reverse bg-warning mt-2">
-      <span class="text-white bg-primary p-2">text1</span>
-      <span class="bg-secondary text-white p-2">text2</span>
-      <span class="bg-info p-2">text3</span>
-    </div>
-    <div class="d-flex flex-row-reverse bg-warning mt-2 justify-content-center">
-      <span class="text-white bg-primary p-2">text1</span>
-      <span class="bg-secondary text-white p-2">text2</span>
-      <span class="bg-info p-2">text3</span>
-    </div>
-    <div class="d-flex bg-warning mt-2 justify-content-between">
-      <span class="text-white bg-primary p-2">text1</span>
-      <span class="bg-secondary text-white p-2">text2</span>
-      <span class="bg-info p-2">text3</span>
-    </div>
-    <div class="d-flex flex-row-reverse bg-warning mt-2 justify-content-around">
-      <span class="text-white bg-primary p-2">text1</span>
-      <span class="bg-secondary text-white p-2">text2</span>
-      <span class="bg-info p-2">text3</span>
-    </div>
+    <form>
+      <input id="color-input" type="color" class="form-control form-control-color" value="#CCCCCC">
+      <div id="showColor" class="bg-primary" style="width:100px;height:100px;"></div>
+    </form>
   </div>
 
   <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    let colorInput = document.querySelector('#color-input');
+    let showColor = document.querySelector('#showColor')
+
+    colorInput.addEventListener('change', function (e) {
+      showColor.classList.remove("bg-primary")
+      showColor.style.background = e.target.value;
+    })
+  </script>
 </body>
 
 </html>
