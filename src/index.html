@@ -1,22 +1,82 @@
 <!doctype html>
-<html>
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!--add bootstrap-->
   <link rel="stylesheet" href="styles/bootstrap.css">
-
-  <!--for custome style-->
+  <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
   <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
-  
+  <header>
+    <nav class="navbar navbar-expand-md p-3">
+      <div class="container-fluid">
+        <a href="#">
+          <img style="width:40px;" src="./images/W3Schools_logo.svg" alt="W3Schools Logo">
+        </a>
+        <ul class="navbar-nav ms-3 me-auto d-flex align-items-center">
+          <li class="nav-list">
+            <button class="cus-btn">
+              Tutorials
+              <span>
+                <i class="bi bi-caret-down-fill"></i>
+              </span>
+            </button>
+          </li>
+          <li class="nav-list">
+            <button class="cus-btn">
+              Refcences
+              <span>
+                <i class="bi bi-caret-down-fill"></i>
+              </span>
+            </button>
+          </li>
+          <li class="nav-list">
+            <button class="cus-btn">
+              Exercises
+              <span>
+                <i class="bi bi-caret-down-fill"></i>
+              </span>
+            </button>
+          </li>
+          <li class="nav-list"><a class="nav-link" href="#">Spaces</a></li>
+          <li class="nav-list"><a class="nav-link" href="#">Bootcamp</a></li>
+        </ul>
+        <div class="me-5 d-flex gap-3">
+          <button class="btn btn-dark rounded-pill">Pro</button>
+          <button class="btn btn-success rounded-pill">Get Certified</button>
+          <button class="btn btn-info rounded-pill">Create Website</button>
+        </div>
+        <a href="#"
+          class="d-flex align-items-center justify-content-center p-0 border border-4 rounded-circle border-secondary"
+          style="width:45px;height:45px">
+          <i class="bi bi-person-fill text-primary h3 p-0 m-0"></i>
+        </a>
+      </div>
+    </nav>
+  </header>
 
-  <!--add bootstrap scripts-->
+  <section>
+    <div class="container-fluid text-center bg-dark" style="padding:8rem;">
+      <h3 class="text-white" style="font-size:3.5rem; font-weight:bold;">Learn to Code</h3>
+      <p class="text-success h5 p-2">With the world's largest web developer site.</p>
+      <form class="w-50 mx-auto my-4">
+        <div class="input-group">
+          <input class="form-control rounded-start-pill" type="text" placeholder="Search our tutorials, e.g.HTML">
+          <button class="btn btn-primary px-5 rounded-end-pill" type="button">
+            <i class="bi bi-search text-white h4"></i>
+          </button>
+        </div>
+      </form>
+      <a href="#" class="h5 link-light">Not Sure Where To Begin?</a>
+    </div>
+  </section>
+
   <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="scripts/script.js"></script>
 </body>
 
 </html>

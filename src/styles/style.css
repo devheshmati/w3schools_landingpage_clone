@@ -1,0 +1,9 @@
+.cus-btn {
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+.link-light:hover {
+  color: #04AA6D !important;
+}
