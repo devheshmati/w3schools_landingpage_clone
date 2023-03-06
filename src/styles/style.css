@@ -2,8 +2,28 @@
   border: none;
   outline: none;
   background: transparent;
+  font-weight: inherit;
 }
 
 .link-light:hover {
   color: #04AA6D !important;
+}
+
+.mini-icon-frame button{
+  background: none;
+  color: white;
+  border: none;
+  outline: none;
+}
+
+.tagnamecolor { 
+  color: brown;
+}
+
+.tagcolor {
+  color: mediumblue;
+}
+
+.attributecolor {
+  color: red;
 }

@@ -1,82 +1,232 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/bootstrap.css" />
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap-icons/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
 
-  <link rel="stylesheet" href="styles/bootstrap.css">
-  <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="styles/style.css">
-</head>
-
-<body>
-  <header>
-    <nav class="navbar navbar-expand-md p-3">
-      <div class="container-fluid">
-        <a href="#">
-          <img style="width:40px;" src="./images/W3Schools_logo.svg" alt="W3Schools Logo">
-        </a>
-        <ul class="navbar-nav ms-3 me-auto d-flex align-items-center">
-          <li class="nav-list">
-            <button class="cus-btn">
-              Tutorials
-              <span>
-                <i class="bi bi-caret-down-fill"></i>
-              </span>
-            </button>
-          </li>
-          <li class="nav-list">
-            <button class="cus-btn">
-              Refcences
-              <span>
-                <i class="bi bi-caret-down-fill"></i>
-              </span>
-            </button>
-          </li>
-          <li class="nav-list">
-            <button class="cus-btn">
-              Exercises
-              <span>
-                <i class="bi bi-caret-down-fill"></i>
-              </span>
-            </button>
-          </li>
-          <li class="nav-list"><a class="nav-link" href="#">Spaces</a></li>
-          <li class="nav-list"><a class="nav-link" href="#">Bootcamp</a></li>
-        </ul>
-        <div class="me-5 d-flex gap-3">
-          <button class="btn btn-dark rounded-pill">Pro</button>
-          <button class="btn btn-success rounded-pill">Get Certified</button>
-          <button class="btn btn-info rounded-pill">Create Website</button>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md p-3">
+        <div class="container-fluid">
+          <a href="#">
+            <img
+              style="width: 40px"
+              src="./images/W3Schools_logo.svg"
+              alt="W3Schools Logo"
+            />
+          </a>
+          <ul
+            class="navbar-nav ms-3 me-auto d-flex align-items-center"
+            style="font-weight: bold"
+          >
+            <li class="nav-list">
+              <button class="cus-btn">
+                Tutorials
+                <span>
+                  <i class="bi bi-caret-down-fill"></i>
+                </span>
+              </button>
+            </li>
+            <li class="nav-list">
+              <button class="cus-btn">
+                Refcences
+                <span>
+                  <i class="bi bi-caret-down-fill"></i>
+                </span>
+              </button>
+            </li>
+            <li class="nav-list">
+              <button class="cus-btn">
+                Exercises
+                <span>
+                  <i class="bi bi-caret-down-fill"></i>
+                </span>
+              </button>
+            </li>
+            <li class="nav-list"><a class="nav-link" href="#">Spaces</a></li>
+            <li class="nav-list"><a class="nav-link" href="#">Bootcamp</a></li>
+          </ul>
+          <div class="me-5 d-flex gap-3">
+            <button class="btn btn-dark rounded-pill">Pro</button>
+            <button class="btn btn-success rounded-pill">Get Certified</button>
+            <button class="btn btn-info rounded-pill">Create Website</button>
+          </div>
+          <a
+            href="#"
+            class="d-flex align-items-center justify-content-center p-0 border border-4 rounded-circle border-secondary"
+            style="width: 45px; height: 45px"
+          >
+            <i class="bi bi-person-fill text-primary h3 p-0 m-0"></i>
+          </a>
         </div>
-        <a href="#"
-          class="d-flex align-items-center justify-content-center p-0 border border-4 rounded-circle border-secondary"
-          style="width:45px;height:45px">
-          <i class="bi bi-person-fill text-primary h3 p-0 m-0"></i>
-        </a>
-      </div>
-    </nav>
-  </header>
+      </nav>
+    </header>
 
-  <section>
-    <div class="container-fluid text-center bg-dark" style="padding:8rem;">
-      <h3 class="text-white" style="font-size:3.5rem; font-weight:bold;">Learn to Code</h3>
-      <p class="text-success h5 p-2">With the world's largest web developer site.</p>
-      <form class="w-50 mx-auto my-4">
-        <div class="input-group">
-          <input class="form-control rounded-start-pill" type="text" placeholder="Search our tutorials, e.g.HTML">
-          <button class="btn btn-primary px-5 rounded-end-pill" type="button">
-            <i class="bi bi-search text-white h4"></i>
+    <section>
+      <div
+        class="container-fluid text-center bg-dark position-relative"
+        style="padding: 8rem"
+      >
+        <div
+          class="d-flex gap-4 p-3 text-white position-absolute top-0 end-0 mini-icon-frame"
+        >
+          <button>
+            <i class="bi bi-circle-half"></i>
+          </button>
+          <button title="Translate W3Schools">
+            <i class="bi bi-globe-americas"></i>
+          </button>
+          <button title="Search W3Schools">
+            <i class="bi bi-search"></i>
           </button>
         </div>
-      </form>
-      <a href="#" class="h5 link-light">Not Sure Where To Begin?</a>
-    </div>
-  </section>
+        <h3 class="text-white" style="font-size: 3.5rem; font-weight: bold">
+          Learn to Code
+        </h3>
+        <p class="text-success h5 p-2">
+          With the world's largest web developer site.
+        </p>
+        <form class="w-50 mx-auto my-4">
+          <div class="input-group">
+            <input
+              class="form-control rounded-start-pill"
+              type="text"
+              placeholder="Search our tutorials, e.g.HTML"
+            />
+            <button class="btn btn-primary px-5 rounded-end-pill" type="button">
+              <i class="bi bi-search text-white h4"></i>
+            </button>
+          </div>
+        </form>
+        <a href="#" class="h5 link-light">Not Sure Where To Begin?</a>
+      </div>
+    </section>
 
-  <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="scripts/script.js"></script>
-</body>
+    <section>
+      <svg
+        style="background-color: #d9eee1"
+        width="100%"
+        height="70"
+        viewBox="0 0 100 100"
+        preserveAspectRatio="none"
+      >
+        <path d="M0,0  L110,0C35,150 35,0 0,100z" fill="#282A35"></path>
+      </svg>
+    </section>
 
+    <section class="bg-secondary">
+      <div class="container py-5">
+        <div class="row py-5">
+          <div class="col d-flex flex-column text-center">
+            <h3 class="mb-3" style="font-size: 6rem; font-weight: bold">
+              HTML
+            </h3>
+            <p class="mb-4 h5">The language for building web page</p>
+            <a class="btn text-white btn-primary rounded-pill w-50 mx-auto mb-4"
+              >Learn HTML</a
+            >
+            <a class="btn btn-dark rounded-pill w-50 mx-auto mb-4"
+              >HTML Reference</a
+            >
+            <a class="btn btn-success rounded-pill mx-auto w-50"
+              >Get Certified</a
+            >
+          </div>
+          <div class="col">
+            <div class="d-flex flex-column bg-light shadow p-3 rounded">
+              <h3>HTML Example:</h3>
+              <div
+                class="p-3 border-start border-4 border-primary"
+                style="height: 300px;background-color:white;"
+              >
+                <span class="tagnamecolor" style="color: brown"
+                  ><span class="tagcolor" style="color: mediumblue">&lt;</span
+                  >!DOCTYPE<span class="attributecolor" style="color: red">
+                    html</span
+                  ><span class="tagcolor" style="color: mediumblue"
+                    >&gt;</span
+                  ></span
+                ><br />
+                <span class="tagnamecolor" style="color: brown"
+                  ><span class="tagcolor" style="color: mediumblue">&lt;</span
+                  >html<span class="tagcolor" style="color: mediumblue"
+                    >&gt;</span
+                  ></span
+                ><br />
+                <span class="tagnamecolor" style="color: brown"
+                  ><span class="tagcolor" style="color: mediumblue">&lt;</span
+                  >title<span class="tagcolor" style="color: mediumblue"
+                    >&gt;</span
+                  ></span
+                >HTML Tutorial<span class="tagnamecolor" style="color: brown"
+                  ><span class="tagcolor" style="color: mediumblue">&lt;</span
+                  >/title<span class="tagcolor" style="color: mediumblue"
+                    >&gt;</span
+                  ></span
+                ><br />
+                <span class="tagnamecolor" style="color: brown"
+                  ><span class="tagcolor" style="color: mediumblue">&lt;</span
+                  >body<span class="tagcolor" style="color: mediumblue"
+                    >&gt;</span
+                  ></span
+                ><br /><br />
+                <span class="tagnamecolor" style="color: brown"
+                  ><span class="tagcolor" style="color: mediumblue">&lt;</span
+                  >h1<span class="tagcolor" style="color: mediumblue"
+                    >&gt;</span
+                  ></span
+                >This is a heading<span
+                  class="tagnamecolor"
+                  style="color: brown"
+                  ><span class="tagcolor" style="color: mediumblue">&lt;</span
+                  >/h1<span class="tagcolor" style="color: mediumblue"
+                    >&gt;</span
+                  ></span
+                ><br />
+                <span class="tagnamecolor" style="color: brown"
+                  ><span class="tagcolor" style="color: mediumblue">&lt;</span
+                  >p<span class="tagcolor" style="color: mediumblue"
+                    >&gt;</span
+                  ></span
+                >This is a paragraph.<span
+                  class="tagnamecolor"
+                  style="color: brown"
+                  ><span class="tagcolor" style="color: mediumblue">&lt;</span
+                  >/p<span class="tagcolor" style="color: mediumblue"
+                    >&gt;</span
+                  ></span
+                ><br /><br />
+                <span class="tagnamecolor" style="color: brown"
+                  ><span class="tagcolor" style="color: mediumblue">&lt;</span
+                  >/body<span class="tagcolor" style="color: mediumblue"
+                    >&gt;</span
+                  ></span
+                ><br />
+                <span class="tagnamecolor" style="color: brown"
+                  ><span class="tagcolor" style="color: mediumblue">&lt;</span
+                  >/html<span class="tagcolor" style="color: mediumblue"
+                    >&gt;</span
+                  ></span
+                >
+              </div>
+              <a class="btn btn-primary rounded-pill text-white w-50"
+                >Try It Yourself</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="scripts/script.js"></script>
+  </body>
 </html>
