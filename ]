@@ -311,39 +311,44 @@
   </section>
 
   <section class="bg-dark">
-    <div class="container-fluid">
-      <div class="row row-gap-5 justify-content-center align-items-center"
-        style="padding-inline: 2rem;padding-top: 5rem;padding-bottom: 3rem;column-gap:4rem;">
-        <div class="row" style="column-gap:4rem;">
-          <div class="d-flex flex-column justify-content-center align-items-center bg-success p-5 rounded col">
+    <div class="container">
+      <div class="row row-gap-5 column-gap-5 justify-content-center align-items-center" style="padding: 4rem 0;">
+        <div class="col-6">
+          <div class="d-flex flex-column justify-content-center align-items-center bg-success p-5 rounded">
             <h3 class="h1">PHP</h3>
             <p class="mb-5">A web server programming language</p>
             <a href="#" class="btn btn-dark rounded-pill px-5">Learn PHP</a>
           </div>
-          <div class="d-flex flex-column justify-content-center align-items-center bg-info p-5 rounded col">
+        </div>
+        <div class="col-6">
+          <div class="d-flex flex-column justify-content-center align-items-center bg-info p-5 rounded">
             <h3 class="h1">jQuery</h3>
             <p class="mb-5">A web server programming language</p>
             <a href="#" class="btn btn-dark rounded-pill px-5">Learn PHP</a>
           </div>
         </div>
-        <div class="row" style="column-gap:4rem;">
+        <div class="col-6">
           <div class="d-flex flex-column justify-content-center align-items-center bg-warning p-5 rounded col">
             <h3 class="h1">Java</h3>
             <p class="mb-5">A web server programming language</p>
             <a href="#" class="btn btn-dark rounded-pill px-5">Learn PHP</a>
           </div>
+        </div>
+        <div class="col-6">
           <div class="d-flex flex-column justify-content-center align-items-center bg-secondary p-5 rounded col">
             <h3 class="h1">C++</h3>
             <p class="mb-5">A web server programming language</p>
             <a href="#" class="btn btn-dark rounded-pill px-5">Learn PHP</a>
           </div>
         </div>
-        <div class="row" style="column-gap:4rem;">
+        <div class="col-6">
           <div class="d-flex flex-column justify-content-center align-items-center bg-danger p-5 rounded col">
             <h3 class="h1">W3.CSS</h3>
             <p class="mb-5">A web server programming language</p>
             <a href="#" class="btn btn-dark rounded-pill px-5">Learn PHP</a>
           </div>
+        </div>
+        <div class="col-6">
           <div class="d-flex flex-column justify-content-center align-items-center bg-light p-5 rounded col">
             <h3 class="h1">Bootstrap</h3>
             <p class="mb-5">A web server programming language</p>
@@ -356,143 +361,15 @@
 
   <section class="bg-dark">
     <div class="container-fluid">
-      <div class="row row-gap-5 justify-content-center align-items-center" style="padding: 2rem 2rem;column-gap: 4rem;">
-        <div class="row" style="column-gap:4rem;">
-          <a href="#" class="h4 text-decoration-none text-center bg-success rounded col fw-bold" style="padding:2.4rem;">
-            C
-          </a>
-          <a href="#" class="h4 text-decoration-none text-center bg-info rounded col fw-bold" style="padding:2.4rem;">
-            C#
-          </a>
-        </div>
-        <div class="row" style="column-gap:4rem;">
-          <a href="#" class="h4 text-decoration-none text-center bg-warning rounded col fw-bold" style="padding:2.4rem;">
-            R
-          </a>
-          <a href="#" class="h4 text-decoration-none text-center bg-secondary rounded col fw-bold" style="padding:2.4rem;">
-            Kotlin
-          </a>
-          <a href="#" class="h4 text-decoration-none text-center bg-danger rounded col fw-bold" style="padding:2.4rem;">
-            Node.js
-          </a>
-          <a href="#" class="h4 text-decoration-none text-center bg-success rounded col fw-bold" style="padding:2.4rem;">
-            React
-          </a>
-        </div>
-        <div class="row" style="column-gap:4rem;">
-          <a href="#" class="h4 text-decoration-none text-center bg-info rounded col fw-bold" style="padding:2.4rem;">
-            JSON
-          </a>
-          <a href="#" class="h4 text-decoration-none text-center bg-warning rounded col fw-bold" style="padding:2.4rem;">
-            AngularJS
-          </a>
-          <a href="#" class="h4 text-decoration-none text-center bg-secondary rounded col fw-bold" style="padding:2.4rem;">
-            MySQL
-          </a>
-          <a href="#" class="h4 text-decoration-none text-center bg-danger rounded col fw-bold" style="padding:2.4rem;">
-            XML
-          </a>
-        </div>
-        <div class="row" style="column-gap:4rem;">
-          <a href="#" class="h4 text-decoration-none text-center bg-success rounded col fw-bold" style="padding:2.4rem;">
-            Sass
-          </a>
-          <a href="#" class="h4 text-decoration-none text-center bg-info rounded col fw-bold" style="padding:2.4rem;">
-            Icons
-          </a>
-          <a href="#" class="h4 text-decoration-none text-center bg-warning rounded col fw-bold" style="padding:2.4rem;">
-            RWD
-          </a>
-          <a href="#" class="h4 text-decoration-none text-center bg-secondary rounded col fw-bold" style="padding:2.4rem;">
-            Graphics
-          </a>
-        </div>
-        <div class="row" style="column-gap:4rem;">
-          <a href="#" class="h4 text-decoration-none text-center bg-danger rounded col fw-bold" style="padding:2.4rem;">
-            SVG
-          </a>
-          <a href="#" class="h4 text-decoration-none text-center bg-success rounded col fw-bold" style="padding:2.4rem;">
-            Canvas
-          </a>
-          <a href="#" class="h4 text-decoration-none text-center bg-info rounded col fw-bold" style="padding:2.4rem;">
-            Raspberry Pi
-          </a>
-          <a href="#" class="h4 text-decoration-none text-center bg-warning rounded col fw-bold" style="padding:2.4rem;">
-            Cyber Security
-          </a>
-        </div>
-        <div class="row" style="column-gap:4rem;">
-          <a href="#" class="h4 text-decoration-none text-center bg-secondary rounded col fw-bold" style="padding:2.4rem;">
-            Colors
-          </a>
-          <a href="#" class="h4 text-decoration-none text-center bg-danger rounded col fw-bold" style="padding:2.4rem;">
-            Git
-          </a>
-          <a href="#" class="h4 text-decoration-none text-center bg-success rounded col fw-bold" style="padding:2.4rem;">
-            Matplotlib
-          </a>
-          <a href="#" class="h4 text-decoration-none text-center bg-info rounded col fw-bold" style="padding:2.4rem;">
-            NumPy
-          </a>
-        </div>
-        <div class="row" style="column-gap:4rem;">
-          <a href="#" class="h4 text-decoration-none text-center bg-warning rounded col fw-bold" style="padding:2.4rem;">
-            Pandas
-          </a>
-          <a href="#" class="h4 text-decoration-none text-center bg-secondary rounded col fw-bold" style="padding:2.4rem;">
-            SciPy
-          </a>
-          <a href="#" class="h4 text-decoration-none text-center bg-danger rounded col fw-bold" style="padding:2.4rem;">
-            ASP
-          </a>
-          <a href="#" class="h4 text-decoration-none text-center bg-success rounded col fw-bold" style="padding:2.4rem;">
-            Accessibility
-          </a>
-        </div>
-        <div class="row" style="column-gap:4rem;">
-          <a href="#" class="h4 text-decoration-none text-center bg-info rounded col fw-bold" style="padding:2.4rem;">
-            AppML
-          </a>
-          <a href="#" class="h4 text-decoration-none text-center bg-warning rounded col fw-bold" style="padding:2.4rem;">
-            Go
-          </a>
-          <a href="#" class="h4 text-decoration-none text-center bg-secondary rounded col fw-bold" style="padding:2.4rem;">
-            TypeScript
-          </a>
-          <a href="#" class="h4 text-decoration-none text-center bg-danger rounded col fw-bold" style="padding:2.4rem;">
-            Django
-          </a>
-        </div>
-        <div class="row" style="column-gap:4rem;">
-          <a href="#" class="h4 text-decoration-none text-center bg-success rounded col fw-bold" style="padding:2.4rem;">
-            MongoDB
-          </a>
-          <a href="#" class="h4 text-decoration-none text-center bg-info rounded col fw-bold" style="padding:2.4rem;">
-            Statistics
-          </a>
-          <a href="#" class="h4 text-decoration-none text-center bg-warning rounded col fw-bold" style="padding:2.4rem;">
-            Data Science
-          </a>
-          <a href="#" class="h4 text-decoration-none text-center bg-secondary rounded col fw-bold" style="padding:2.4rem;">
-            Typing Speed
-          </a>
-        </div>
-        <div class="row" style="column-gap:4rem;">
-          <a href="#" class="h4 text-decoration-none text-center bg-danger rounded col fw-bold" style="padding:2.4rem;">
-            Exel
-          </a>
-          <a href="#" class="h4 text-decoration-none text-center bg-info rounded col fw-bold" style="padding:2.4rem;">
-            Google Sheets
-          </a>
-        </div>
-        <div class="row" style="column-gap:4rem;">
-          <a href="#" class="h4 text-decoration-none text-center bg-success rounded col fw-bold" style="padding:2.4rem;">
-            Machine Learning
-          </a>
-          <a href="#" class="h4 text-decoration-none text-center bg-warning rounded col fw-bold" style="padding:2.4rem;">
-            Artificial Intelligence
-          </a>
-        </div>
+      <div class="row row-gap-5 justify-content-center align-items-center" style="padding: 4rem 0;column-gap: 5rem;">
+        <a href="#"
+          class="h2 text-decoration-none d-flex flex-column justify-content-center align-items-center bg-danger p-5 rounded">
+          C
+        </a>
+        <a href="#"
+          class="h2 text-decoration-none d-flex flex-column justify-content-center align-items-center bg-danger p-5 rounded">
+          C#
+        </a>
       </div>
     </div>
   </section>
