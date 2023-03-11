@@ -63,6 +63,10 @@ a.hover-primary:hover {
   color: black !important;
 }
 
+.hover-black:hover {
+  background-color: black !important;
+}
+
 .hover-facebook:hover {
   color: #4267B2;
 }
@@ -77,4 +81,8 @@ a.hover-primary:hover {
 
 .hover-discord:hover {
   color: #5865F2;
+}
+
+.hover-btn-primary:hover {
+  background-color: #04AA6D !important;
 }
