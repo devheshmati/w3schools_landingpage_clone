@@ -33,3 +33,15 @@
   font-weight: 400;
   line-height: 1.5;
 }
+
+#carousel-slider .carousel-indicators button{
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #bbb;
+  margin:0 4px;
+}
+
+#carousel-slider .carousel-indicators button.active {
+  background-color: #717171;
+}
