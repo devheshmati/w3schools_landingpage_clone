@@ -45,3 +45,36 @@
 #carousel-slider .carousel-indicators button.active {
   background-color: #717171;
 }
+
+a.hover-primary:hover {
+  color: #04AA6D !important; 
+}
+
+.hover-opacity:hover {
+  opacity: 0.9;
+}
+
+.hover-opacity-half:hover {
+  opacity: 0.5;
+}
+
+.hover-white:hover {
+  background-color: white;
+  color: black !important;
+}
+
+.hover-facebook:hover {
+  color: #4267B2;
+}
+
+.hover-instagram:hover {
+  color: #833AB4;
+}
+
+.hover-linkedin:hover {
+  color: #0077B5;
+}
+
+.hover-discord:hover {
+  color: #5865F2;
+}
