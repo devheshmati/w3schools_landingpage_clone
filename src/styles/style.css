@@ -50,6 +50,11 @@ a.hover-primary:hover {
   color: #04AA6D !important; 
 }
 
+.hover-bg-primary:hover {
+  background-color: #04AA6D !important;
+  color: white !important;
+}
+
 .hover-opacity:hover {
   opacity: 0.9;
 }
