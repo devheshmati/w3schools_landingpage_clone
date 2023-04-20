@@ -25,37 +25,40 @@
         <img style="width: 40px" src="./images/W3Schools_logo.svg" alt="w3schools logo" />
       </a>
       <ul class="nav h-100 align-items-center me-auto nav-01">
-        <li class="h-100 p-0 m-0"><a href="#"
+        <li class="h-100 p-0 m-0 d-none d-md-flex"><a href="#"
             class="text-decoration-none fw-bold text-dark h-100 d-flex align-items-center hover-bg-primary px-3"
             style="font-size: 0.9rem;">Tutorials <i class="bi bi-caret-down-fill"></i></a></li>
-        <li class="h-100 p-0 m-0"><a href="#"
+        <li class="h-100 p-0 m-0 d-none d-md-flex"><a href="#"
             class="text-decoration-none fw-bold text-dark h-100 d-flex align-items-center hover-bg-primary px-3"
             style="font-size: 0.9rem;">Refrences <i class="bi bi-caret-down-fill"></i></a></li>
-        <li class="h-100 p-0 m-0"><a href="#"
+        <li class="h-100 p-0 m-0 d-none d-md-flex"><a href="#"
             class="text-decoration-none fw-bold text-dark h-100 d-flex align-items-center hover-bg-primary px-3"
             style="font-size: 0.9rem;">Exercises <i class="bi bi-caret-down-fill"></i></a></li>
-        <li class="h-100 p-0 m-0"><a href="#"
+        <li class="h-100 p-0 m-0 d-none d-md-flex"><a href="#"
             class="text-decoration-none fw-bold text-dark h-100 d-flex align-items-center hover-bg-primary px-3"
             style="font-size: 0.9rem;">Bootcamp</a></li>
+        <li class="h-100 p-0 m-0 d-md-none"><a href="#"
+            class="text-decoration-none fw-bold text-dark h-100 d-flex align-items-center hover-bg-primary px-3"
+            style="font-size: 0.9rem;">Menu <i class="bi bi-caret-down-fill"></i></a></li>
       </ul>
       <ul class="nav h-100 align-items-center column-gap-3 me-3">
-        <li>
+        <li class="d-none d-xl-block">
           <a href="#">
             <button class="btn btn-dark rounded-pill">Pro</button>
           </a>
         </li>
-        <li>
+        <li class="d-none d-lg-block">
           <a href="#">
             <button class="btn btn-success rounded-pill">Get Certified</button>
           </a>
         </li>
-        <li>
+        <li class="d-none d-lg-block">
           <a href="#">
             <button class="btn btn-info rounded-pill">Create Website</button>
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href="#" class="cus-d-xsm-none">
             <button class="btn btn-primary rounded-pill text-white">Spaces</button>
           </a>
         </li>
@@ -69,33 +72,33 @@
   </header>
 
   <section>
-    <div class="container-fluid text-center bg-dark position-relative" style="padding: 8rem">
+    <div class="container-fluid text-center bg-dark position-relative">
       <div class="d-flex gap-4 p-3 text-white position-absolute top-0 end-0 mini-icon-frame">
         <button>
           <i class="bi bi-circle-half"></i>
         </button>
-        <button title="translate w3schools">
+        <button title="translate w3schools" class="cus-d-xsm-none">
           <i class="bi bi-globe-americas"></i>
         </button>
-        <button title="search w3schools">
+        <button title="search w3schools" class="cus-d-xsm-none">
           <i class="bi bi-search"></i>
         </button>
       </div>
-      <h3 class="text-white fw-bold" style="font-size: 3.8rem;">
+      <h3 class="text-white fw-bold cus-hs">
         Learn to Code
       </h3>
-      <p class="text-success h5 p-3 fw-bold">
+      <p class="text-success fw-bold cus-p">
         With the world's largest web developer site.
       </p>
       <form class="w-50 mx-auto my-4">
         <div class="input-group" style="margin-bottom: 2rem;">
-          <input class="form-control rounded-start-pill" type="text" placeholder="search our tutorials, e.g.html" />
-          <button class="btn btn-primary px-5 rounded-end-pill" type="button">
+          <input class="form-control rounded-start-pill cus-ti" type="text" placeholder="search our tutorials, e.g.html" />
+          <button class="btn btn-primary px-sm-4 px-md-5 rounded-end-pill" type="button">
             <i class="fa-solid fa-magnifying-glass text-white fs-5"></i>
           </button>
         </div>
       </form>
-      <a href="#" class="h5 text-white fw-bold hover-primary">Not Sure Where To Begin?</a>
+      <a href="#" class="text-white fw-bold hover-primary cus-p">Not Sure Where To Begin?</a>
     </div>
   </section>
 
@@ -582,22 +585,22 @@
     </div>
   </section>
 
-  <section class="bg-dark text-white pt-5">
-    <div class="container">
-      <div class="d-flex flex-column p-5 align-items-center">
+  <section class="bg-warning text-white pt-5">
+    <div class="container bg-danger">
+      <div class="d-flex flex-column p-0 p-sm-5 align-items-center">
         <h3 class="mx-auto fw-bold mb-3" style="font-size: 3.5rem;">code editor</h3>
         <p class="mx-auto p-2 mb-5 h5">with our online code editor,you can edit code and view the result in your browser
         </p>
-        <div class="mx-auto d-flex flex-column">
+        <div class="m-0 mx-sm-auto d-flex flex-column">
           <div class="mb-4">
             <div class="bg-light rounded-top d-flex justify-content-start align-items-center" style="padding: 0.8rem;">
-              <div class="d-flex column-gap-2 pe-5">
+              <div class="d-flex column-gap-2 pe-2 pe-sm-5">
                 <span class="rounded-circle d-inline-block" style="width:15px;height:15px;background: #ed594a;"></span>
                 <span class="rounded-circle d-inline-block" style="width:15px;height:15px;background: #fdd800;"></span>
                 <span class="rounded-circle d-inline-block" style="width:15px;height:15px;background: #5ac05a;"></span>
               </div>
               <div style="width:65%;">
-                <p class="bg-white px-2 text-dark m-0 rounded small">www.w3schools.com/tryit/</p>
+                <p class="bg-white px-2 text-dark m-0 rounded small cus-fs-xsm-10">www.w3schools.com/tryit/</p>
               </div>
             </div>
             <div>
@@ -808,15 +811,15 @@
       <p class="h5 mb-4">Code snippets for HTML, CSS and JavaScript</p>
       <p class="mb-4">For example, how to create a slideshow:</p>
       <div class="d-flex flex-column">
-        <div style="max-width:942px;" class="mb-4 mx-auto">
+        <div style="max-width:942px;" class="mb-4 mx-sm-auto">
           <div class="bg-light rounded-top d-flex justify-content-start align-items-center" style="padding: 0.8rem;">
-            <div class="d-flex column-gap-2 pe-5">
+            <div class="d-flex column-gap-2 px-2 pe-sm-5">
               <span class="rounded-circle d-inline-block" style="width:15px;height:15px;background: #ed594a;"></span>
               <span class="rounded-circle d-inline-block" style="width:15px;height:15px;background: #fdd800;"></span>
               <span class="rounded-circle d-inline-block" style="width:15px;height:15px;background: #5ac05a;"></span>
             </div>
             <div style="width:65%;" class="text-start">
-              <p class="bg-white px-2 text-dark m-0 rounded small">www.w3schools.com/tryit/</p>
+              <p class="bg-white px-2 text-dark m-0 rounded small cus-fs-xsm-10">www.w3schools.com/tryit/</p>
             </div>
           </div>
 
@@ -854,9 +857,8 @@
               </button>
             </div>
           </div>
-          <div class="stand-tv bg-dark mx-auto" style="width: 3rem;height: 5.2rem;"></div>
-          <a href="#" class="h5 bg-dark text-white rounded-pill text-decoration-none hover-btn-primary"
-            style="padding: 1.2rem 11rem;">Learn How To</a>
+          <div class="bg-dark mx-auto" style="width: 3rem;height: 5.2rem;"></div>
+          <a href="#" class="tv-stand h5 bg-dark text-white rounded-pill text-decoration-none hover-btn-primary">Learn How To</a>
         </div>
       </div>
     </div>

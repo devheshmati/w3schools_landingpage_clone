@@ -1,3 +1,13 @@
+#navbar-01 {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+#nav-01 {
+  display: flex;
+  heigth: 100%;
+}
+
 .cus-btn {
   border: none;
   outline: none;
@@ -6,17 +16,17 @@
 }
 
 .link-light:hover {
-  color: #04AA6D !important;
+  color: #04aa6d !important;
 }
 
-.mini-icon-frame button{
+.mini-icon-frame button {
   background: none;
   color: white;
   border: none;
   outline: none;
 }
 
-.tagnamecolor { 
+.tagnamecolor {
   color: brown;
 }
 
@@ -34,12 +44,12 @@
   line-height: 1.5;
 }
 
-#carousel-slider .carousel-indicators button{
+#carousel-slider .carousel-indicators button {
   width: 15px;
   height: 15px;
   border-radius: 50%;
   background-color: #bbb;
-  margin:0 4px;
+  margin: 0 4px;
 }
 
 #carousel-slider .carousel-indicators button.active {
@@ -47,11 +57,11 @@
 }
 
 a.hover-primary:hover {
-  color: #04AA6D !important; 
+  color: #04aa6d !important;
 }
 
 .hover-bg-primary:hover {
-  background-color: #04AA6D !important;
+  background-color: #04aa6d !important;
   color: white !important;
 }
 
@@ -73,21 +83,89 @@ a.hover-primary:hover {
 }
 
 .hover-facebook:hover {
-  color: #4267B2;
+  color: #4267b2;
 }
 
 .hover-instagram:hover {
-  color: #833AB4;
+  color: #833ab4;
 }
 
 .hover-linkedin:hover {
-  color: #0077B5;
+  color: #0077b5;
 }
 
 .hover-discord:hover {
-  color: #5865F2;
+  color: #5865f2;
 }
 
 .hover-btn-primary:hover {
-  background-color: #04AA6D !important;
+  background-color: #04aa6d !important;
 }
+
+.tv-stand {
+  padding: 1.2rem 11rem;
+}
+
+.cus-hs {
+  padding: 8rem 2rem 2rem 2rem;
+  font-size: 3rem;
+}
+
+.cus-p {
+  font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .tv-stand {
+    padding: 0.8rem 4rem;
+  }
+
+  .cus-hs {
+    padding: 6rem 2rem 2rem 2rem;
+    font-size: 2.5rem;
+  }
+
+  .cus-p {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .tv-stand {
+    padding: 0.8rem 3rem;
+    font-size: 1.1rem;
+  }
+
+  .cus-hs {
+    padding: 5rem 2rem 2rem 2rem;
+    font-size: 2rem;
+  }
+
+  .cus-p {
+    font-size: 0.8rem;
+  }
+
+  .cus-ti {
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .cus-d-xsm-none {
+    display: none;
+  }
+
+  .cus-fs-xsm-10 {
+    font-size: 10px;
+  }
+
+  .cus-fs-xsm-14 {
+    font-size: 14px
+  }
+
+  .tv-stand {
+    padding: 0.8rem 3rem;
+    font-size: 1rem;
+  }
+}
+
