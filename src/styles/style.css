@@ -8,6 +8,10 @@
   heigth: 100%;
 }
 
+#search-form-top {
+  width: 50%;
+}
+
 .cus-btn {
   border: none;
   outline: none;
@@ -106,13 +110,20 @@ a.hover-primary:hover {
   padding: 1.2rem 11rem;
 }
 
-.cus-hs {
+/* custom normal title */
+.cus-nt {
   padding: 8rem 2rem 2rem 2rem;
   font-size: 3rem;
 }
 
-.cus-p {
+/* custom normal paragraph */
+.cus-np {
   font-size: 1.2rem;
+}
+
+/* custom supter title */
+.cus-st {
+  font-size: 5rem;
 }
 
 @media only screen and (max-width: 768px) {
@@ -120,33 +131,42 @@ a.hover-primary:hover {
     padding: 0.8rem 4rem;
   }
 
-  .cus-hs {
+  .cus-nt {
     padding: 6rem 2rem 2rem 2rem;
     font-size: 2.5rem;
   }
 
-  .cus-p {
+  .cus-np {
     font-size: 1rem;
   }
 }
 
 @media only screen and (max-width: 500px) {
+  #search-form-top {
+    width: 75%;
+  }
+
   .tv-stand {
     padding: 0.8rem 3rem;
     font-size: 1.1rem;
   }
 
-  .cus-hs {
+  .cus-nt {
     padding: 5rem 2rem 2rem 2rem;
     font-size: 2rem;
   }
 
-  .cus-p {
+  .cus-np {
     font-size: 0.8rem;
   }
 
+  /* custom text input */
   .cus-ti {
     font-size: 0.8rem;
+  }
+
+  .cus-st {
+    font-size: 4rem;
   }
 }
 
@@ -155,17 +175,21 @@ a.hover-primary:hover {
     display: none;
   }
 
+  /* custom font size extra small */
   .cus-fs-xsm-10 {
     font-size: 10px;
   }
 
   .cus-fs-xsm-14 {
-    font-size: 14px
+    font-size: 14px;
   }
 
   .tv-stand {
     padding: 0.8rem 3rem;
     font-size: 1rem;
   }
-}
 
+  .cus-st {
+    font-size: 3rem;
+  }
+}
