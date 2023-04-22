@@ -121,9 +121,36 @@ a.hover-primary:hover {
   font-size: 1.2rem;
 }
 
-/* custom supter title */
+/* custom super title */
 .cus-st {
   font-size: 5rem;
+}
+
+/* custom language link */
+.cus-ll {
+  height: 150px;
+}
+
+.cus-mll-frame {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3rem;
+}
+
+.cus-mll {
+  height: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: black;
+}
+
+@media only screen and (max-width: 992px) {
+  .cus-mll-frame {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem 2rem;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -138,6 +165,12 @@ a.hover-primary:hover {
 
   .cus-np {
     font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .cus-mll-frame {
+    grid-template-columns: 1fr;
   }
 }
 
