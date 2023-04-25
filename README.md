@@ -3,7 +3,8 @@
 
 In this project i created a simple static clone `W3Schools` landing page for tutorial and i imported the bootstrap with npm
 
-## what is the features
+## What is the features
 - Using npm (node package manager)
 - Using bootstrap for UI
-- Completely responsive
+- Completely responsive for all devices
+- Use custom css
