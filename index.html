@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Landing page 01</title>
+
+  <link rel="stylesheet" href="./src/styles/bootstrap.css" />
+  <link rel="stylesheet" href="./src/../node_modules/bootstrap-icons/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="./src/styles/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Freckle+Face&family=Source+Sans+Pro:wght@400;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <header style="height: 70px;">
+    <nav class="container-fluid d-flex h-100 align-items-center px-4">
+      <a href="#" title="Home" class="me-4">
+        <img style="width: 40px" src="./src/images/W3Schools_logo.svg" alt="w3schools logo" />
+      </a>
+      <ul class="nav h-100 align-items-center me-auto nav-01">
+        <li class="h-100 p-0 m-0 d-none d-md-flex"><a href="#"
+            class="text-decoration-none fw-bold text-dark h-100 d-flex align-items-center hover-bg-primary px-3"
+            style="font-size: 0.9rem;">Tutorials <i class="bi bi-caret-down-fill"></i></a></li>
+        <li class="h-100 p-0 m-0 d-none d-md-flex"><a href="#"
+            class="text-decoration-none fw-bold text-dark h-100 d-flex align-items-center hover-bg-primary px-3"
+            style="font-size: 0.9rem;">Refrences <i class="bi bi-caret-down-fill"></i></a></li>
+        <li class="h-100 p-0 m-0 d-none d-md-flex"><a href="#"
+            class="text-decoration-none fw-bold text-dark h-100 d-flex align-items-center hover-bg-primary px-3"
+            style="font-size: 0.9rem;">Exercises <i class="bi bi-caret-down-fill"></i></a></li>
+        <li class="h-100 p-0 m-0 d-none d-md-flex"><a href="#"
+            class="text-decoration-none fw-bold text-dark h-100 d-flex align-items-center hover-bg-primary px-3"
+            style="font-size: 0.9rem;">Bootcamp</a></li>
+        <li class="h-100 p-0 m-0 d-md-none"><a href="#"
+            class="text-decoration-none fw-bold text-dark h-100 d-flex align-items-center hover-bg-primary px-3"
+            style="font-size: 0.9rem;">Menu <i class="bi bi-caret-down-fill"></i></a></li>
+      </ul>
+      <ul class="nav h-100 align-items-center column-gap-3 me-3">
+        <li class="d-none d-xl-block">
+          <a href="#">
+            <button class="btn btn-dark rounded-pill">Pro</button>
+          </a>
+        </li>
+        <li class="d-none d-lg-block">
+          <a href="#">
+            <button class="btn btn-success rounded-pill">Get Certified</button>
+          </a>
+        </li>
+        <li class="d-none d-lg-block">
+          <a href="#">
+            <button class="btn btn-info rounded-pill">Create Website</button>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="cus-d-xsm-none">
+            <button class="btn btn-primary rounded-pill text-white">Spaces</button>
+          </a>
+        </li>
+      </ul>
+      <a href="#"
+        class="d-flex align-items-center justify-content-center p-0 border border-4 rounded-circle border-secondary"
+        style="width: 45px; height: 45px">
+        <i class="fa-solid fa-user h4 p-0 m-0"></i>
+      </a>
+    </nav>
+  </header>
+
+  <section>
+    <div class="container-fluid text-center bg-dark position-relative">
+      <div class="d-flex gap-4 p-3 text-white position-absolute top-0 end-0 mini-icon-frame">
+        <button>
+          <i class="bi bi-circle-half"></i>
+        </button>
+        <button title="translate w3schools" class="cus-d-xsm-none">
+          <i class="bi bi-globe-americas"></i>
+        </button>
+        <button title="search w3schools" class="cus-d-xsm-none">
+          <i class="bi bi-search"></i>
+        </button>
+      </div>
+      <h3 class="text-white fw-bold cus-nt">
+        Learn to Code
+      </h3>
+      <p class="text-success fw-bold cus-np">
+        With the world's largest web developer site.
+      </p>
+      <form id="search-form-top" class="mx-auto my-4">
+        <div class="input-group" style="margin-bottom: 2rem;">
+          <input class="form-control rounded-start-pill cus-ti" type="text"
+            placeholder="search our tutorials, e.g.html" />
+          <button class="btn btn-primary px-sm-4 px-md-5 rounded-end-pill" type="button">
+            <i class="fa-solid fa-magnifying-glass text-white fs-5"></i>
+          </button>
+        </div>
+      </form>
+      <a href="#" class="text-white fw-bold hover-primary cus-np">Not Sure Where To Begin?</a>
+    </div>
+  </section>
+
+  <section>
+    <svg style="background-color:#D9EEE1;" width="100%" height="70" viewBox="0 0 100 100" preserveAspectRatio="none">
+      <path id="wavepath" d="M0,0  L110,0C35,150 35,0 0,100z" fill="#282A35"></path>
+    </svg>
+  </section>
+
+  <!--html section-->
+  <section class="bg-secondary">
+    <div class="container py-5">
+      <div class="row py-4">
+        <div class="col-12 col-lg d-flex flex-column text-center justify-content-center mb-5 mb-lg-0">
+          <h3 class="mb-3 fw-bold cus-st">
+            HTML
+          </h3>
+          <p class="mb-4 cus-np">The language for building web pages</p>
+          <ul class="nav flex-column row-gap-4 mx-auto" style="width: 200px;">
+            <a href="#" class="btn btn-primary fw-bold text-white rounded-pill" style="padding: 0.7rem 0;">Learn
+              HTML</a>
+            <a href="#" class="btn btn-info fw-bold text-dark rounded-pill" style="padding: 0.7rem 0;">Video
+              Tutorial</a>
+            <a href="#" class="btn btn-dark fw-bold text-white rounded-pill" style="padding: 0.7rem 0;">HTML
+              Refrence</a>
+            <a href="#" class="btn btn-success fw-bold text-dark rounded-pill" style="padding: 0.7rem 0;">Get
+              Certified</a>
+          </ul>
+        </div>
+        <div class="col-12 col-lg d-none d-sm-block">
+          <div class="d-flex flex-column bg-light shadow p-3 rounded">
+            <h3 class="h4 mb-3">HTML Example:</h3>
+            <div class="p-3 mb-3 border-start border-4 border-primary code-frame"
+              style="height: 300px; background-color: white">
+              <span class="tagnamecolor" style="color: brown"><span class="tagcolor"
+                  style="color: mediumblue">&lt;</span>!doctype<span class="attributecolor" style="color: red">
+                  html</span><span class="tagcolor" style="color: mediumblue">&gt;</span></span><br />
+              <span class="tagnamecolor" style="color: brown"><span class="tagcolor"
+                  style="color: mediumblue">&lt;</span>html<span class="tagcolor"
+                  style="color: mediumblue">&gt;</span></span><br />
+              <span class="tagnamecolor" style="color: brown"><span class="tagcolor"
+                  style="color: mediumblue">&lt;</span>title<span class="tagcolor"
+                  style="color: mediumblue">&gt;</span></span>html tutorial<span class="tagnamecolor"
+                style="color: brown"><span class="tagcolor" style="color: mediumblue">&lt;</span>/title<span
+                  class="tagcolor" style="color: mediumblue">&gt;</span></span><br />
+              <span class="tagnamecolor" style="color: brown"><span class="tagcolor"
+                  style="color: mediumblue">&lt;</span>body<span class="tagcolor"
+                  style="color: mediumblue">&gt;</span></span><br /><br />
+              <span class="tagnamecolor" style="color: brown"><span class="tagcolor"
+                  style="color: mediumblue">&lt;</span>h1<span class="tagcolor"
+                  style="color: mediumblue">&gt;</span></span>this is a heading<span class="tagnamecolor"
+                style="color: brown"><span class="tagcolor" style="color: mediumblue">&lt;</span>/h1<span
+                  class="tagcolor" style="color: mediumblue">&gt;</span></span><br />
+              <span class="tagnamecolor" style="color: brown"><span class="tagcolor"
+                  style="color: mediumblue">&lt;</span>p<span class="tagcolor"
+                  style="color: mediumblue">&gt;</span></span>this is a paragraph.<span class="tagnamecolor"
+                style="color: brown"><span class="tagcolor" style="color: mediumblue">&lt;</span>/p<span
+                  class="tagcolor" style="color: mediumblue">&gt;</span></span><br /><br />
+              <span class="tagnamecolor" style="color: brown"><span class="tagcolor"
+                  style="color: mediumblue">&lt;</span>/body<span class="tagcolor"
+                  style="color: mediumblue">&gt;</span></span><br />
+              <span class="tagnamecolor" style="color: brown"><span class="tagcolor"
+                  style="color: mediumblue">&lt;</span>/html<span class="tagcolor"
+                  style="color: mediumblue">&gt;</span></span>
+            </div>
+            <a class="btn btn-primary rounded-pill text-white px-5 fw-bold" style="width: fit-content;">Try it
+              yourself</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--css section-->
+  <section class="bg-info">
+    <div class="container py-5">
+      <div class="row py-4">
+        <div class="col-12 col-lg d-flex flex-column text-center justify-content-center mb-5 mb-lg-0">
+          <h3 class="mb-3 fw-bold cus-st">
+            CSS
+          </h3>
+          <p class="mb-4 cus-np">The language for styling web pages</p>
+          <ul class="nav flex-column row-gap-4 mx-auto" style="width: 200px;">
+            <a href="#" class="btn btn-primary fw-bold text-white rounded-pill" style="padding: 0.7rem 0;">Learn
+              CSS</a>
+            <a href="#" class="btn btn-dark fw-bold text-white rounded-pill" style="padding: 0.7rem 0;">CSS
+              Refrence</a>
+            <a href="#" class="btn btn-success fw-bold text-dark rounded-pill" style="padding: 0.7rem 0;">Get
+              Certified</a>
+          </ul>
+        </div>
+        <div class="col-12 col-lg d-none d-sm-block">
+          <div class="d-flex flex-column bg-light shadow p-3 rounded">
+            <h3 class="h4 mb-3">CSS Example:</h3>
+            <div class="p-3 mb-3 border-start border-4 border-primary code-frame"
+              style="height: 300px; background-color: white">
+              <span class="cssselectorcolor" style="color:brown">
+                body <span class="cssdelimitercolor" style="color:black">{</span><span class="csspropertycolor"
+                  style="color:red"><br>
+                  &nbsp; background-color<span class="csspropertyvaluecolor" style="color:mediumblue"><span
+                      class="cssdelimitercolor" style="color:black">:</span> lightblue<span class="cssdelimitercolor"
+                      style="color:black">;</span></span><br></span><span class="cssdelimitercolor"
+                  style="color:black">}</span><br><br>
+                h1 <span class="cssdelimitercolor" style="color:black">{</span><span class="csspropertycolor"
+                  style="color:red"><br>
+                  &nbsp; color<span class="csspropertyvaluecolor" style="color:mediumblue"><span
+                      class="cssdelimitercolor" style="color:black">:</span> white<span class="cssdelimitercolor"
+                      style="color:black">;</span></span><br>
+                  &nbsp; text-align<span class="csspropertyvaluecolor" style="color:mediumblue"><span
+                      class="cssdelimitercolor" style="color:black">:</span> center<span class="cssdelimitercolor"
+                      style="color:black">;</span></span><br></span><span class="cssdelimitercolor"
+                  style="color:black">}</span><br><br>p <span class="cssdelimitercolor"
+                  style="color:black">{</span><span class="csspropertycolor" style="color:red"><br>&nbsp;
+                  font-family<span class="csspropertyvaluecolor" style="color:mediumblue"><span
+                      class="cssdelimitercolor" style="color:black">:</span> verdana<span class="cssdelimitercolor"
+                      style="color:black">;</span></span><br></span><span class="cssdelimitercolor"
+                  style="color:black">}</span></span>
+            </div>
+            <a class="btn btn-primary rounded-pill text-white px-5 fw-bold" style="width: fit-content;">Try it
+              yourself</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--javascript section-->
+  <section class="bg-dark">
+    <div class="container py-5">
+      <div class="row py-4">
+        <div class="col-12 col-lg d-flex flex-column text-center justify-content-center mb-5 mb-lg-0">
+          <h3 class="mb-3 fw-bold text-white cus-st">
+            JavaScript
+          </h3>
+          <p class="mb-4 text-white cus-np">The language for programming web pages</p>
+          <ul class="nav flex-column row-gap-4 mx-auto" style="width: 200px;">
+            <a href="#" class="btn btn-primary fw-bold text-white rounded-pill" style="padding: 0.7rem 0;">Learn
+              JavaScript</a>
+            <a href="#" class="btn bg-white fw-bold text-dark rounded-pill" style="padding: 0.7rem 0;">JavaScript
+              Refrence</a>
+            <a href="#" class="btn btn-success fw-bold text-dark rounded-pill" style="padding: 0.7rem 0;">Get
+              Certified</a>
+          </ul>
+        </div>
+        <div class="col-12 col-lg d-none d-sm-block">
+          <div class="d-flex flex-column bg-light shadow p-3 rounded">
+            <h3 class="h4 mb-3">JavaScript Example:</h3>
+            <div class="p-3 mb-3 border-start border-4 border-primary code-frame"
+              style="height: 300px; background-color: white">
+              <div class="htmlHigh">
+                <span class="tagnamecolor" style="color:brown"><span class="tagcolor"
+                    style="color:mediumblue">&lt;</span>button<span class="attributecolor" style="color:red">
+                    onclick<span class="attributevaluecolor" style="color:mediumblue">="myFunction()"</span></span><span
+                    class="tagcolor" style="color:mediumblue">&gt;</span></span>Click Me!<span class="tagnamecolor"
+                  style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/button<span
+                    class="tagcolor" style="color:mediumblue">&gt;</span></span><br><br>
+                <span class="tagnamecolor" style="color:brown"><span class="tagcolor"
+                    style="color:mediumblue">&lt;</span>script<span class="tagcolor"
+                    style="color:mediumblue">&gt;</span></span><span class="jscolor" style="color:black"><br>
+                  <span class="jskeywordcolor" style="color:mediumblue">function</span> myFunction() {<br><span
+                    class="jsnumbercolor" style="color:red">
+                  </span> &nbsp; <span class="jskeywordcolor" style="color:mediumblue">let</span> x = document.<span
+                    class="jspropertycolor" style="color:black">getElementById</span>(<span class="jsstringcolor"
+                    style="color:brown">"demo"</span>);<br><span class="jsnumbercolor" style="color:red">
+                  </span>&nbsp; x.<span class="jspropertycolor" style="color:black">style</span>.<span
+                    class="jspropertycolor" style="color:black">fontSize</span> = <span class="jsstringcolor"
+                    style="color:brown">"25px"</span>; <br><span class="jsnumbercolor" style="color:red">
+                  </span>&nbsp; x.<span class="jspropertycolor" style="color:black">style</span>.<span
+                    class="jspropertycolor" style="color:black">color</span> = <span class="jsstringcolor"
+                    style="color:brown">"red"</span>; <br>}<br>
+                </span><span class="tagnamecolor" style="color:brown"><span class="tagcolor"
+                    style="color:mediumblue">&lt;</span>/script<span class="tagcolor"
+                    style="color:mediumblue">&gt;</span></span>
+              </div>
+            </div>
+            <a class="btn btn-primary rounded-pill text-white px-5 fw-bold" style="width: fit-content;">Try it
+              yourself</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--python section-->
+  <section class="bg-warning">
+    <div class="container py-5">
+      <div class="row py-4">
+        <div class="col-12 col-lg d-flex flex-column text-center justify-content-center mb-5 mb-lg-0">
+          <h3 class="mb-3 fw-bold cus-st">
+            Python
+          </h3>
+          <p class="mb-4 cus-np">The popular programming language</p>
+          <ul class="nav flex-column row-gap-4 mx-auto" style="width: 200px;">
+            <a href="#" class="btn btn-primary fw-bold text-white rounded-pill" style="padding: 0.7rem 0;">Learn
+              Python</a>
+            <a href="#" class="btn btn-dark fw-bold rounded-pill" style="padding: 0.7rem 0;">Python
+              Tutorial</a>
+            <a href="#" class="btn btn-success fw-bold text-dark rounded-pill" style="padding: 0.7rem 0;">Get
+              Certified</a>
+          </ul>
+        </div>
+        <div class="col-12 col-lg d-none d-sm-block">
+          <div class="d-flex flex-column bg-light shadow p-3 rounded">
+            <h3 class="h4 mb-3">Python Example:</h3>
+            <div class="p-3 mb-3 border-start border-4 border-primary code-frame"
+              style="height: 300px; background-color: white">
+              <span class="jscolor" style="color:black"><span class="jsnumbercolor" style="color:red">
+                </span> <span class="jskeywordcolor" style="color:mediumblue">if</span> <span class="jsnumbercolor"
+                  style="color:red">5</span> &gt; <span class="jsnumbercolor" style="color:red">2</span>:<br>&nbsp;
+                print(<span class="jsstringcolor" style="color:brown">"Five is greater than two!"</span>)<span
+                  class="jsnumbercolor" style="color:red">
+                </span> </span>
+            </div>
+            <a class="btn btn-primary rounded-pill text-white px-5 fw-bold" style="width: fit-content;">Try it
+              yourself</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--sql section-->
+  <section class="bg-danger">
+    <div class="container py-5">
+      <div class="row py-4">
+        <div class="col-12 col-lg d-flex flex-column text-center justify-content-center mb-5 mb-lg-0">
+          <h3 class="mb-3 fw-bold cus-st">
+            SQL
+          </h3>
+          <p class="mb-4 cus-np">A language for accessing databases</p>
+          <ul class="nav flex-column row-gap-4 mx-auto" style="width: 200px;">
+            <a href="#" class="btn btn-primary fw-bold text-white rounded-pill" style="padding: 0.7rem 0;">Learn
+              SQL</a>
+            <a href="#" class="btn btn-dark fw-bold text-white rounded-pill" style="padding: 0.7rem 0;">SQL
+              Refrence</a>
+            <a href="#" class="btn btn-success fw-bold text-dark rounded-pill" style="padding: 0.7rem 0;">Get
+              Certified</a>
+          </ul>
+        </div>
+        <div class="col-12 col-lg d-none d-sm-block">
+          <div class="d-flex flex-column bg-light shadow p-3 rounded">
+            <h3 class="h4 mb-3">SQL Example:</h3>
+            <div class="p-3 mb-3 border-start border-4 border-primary code-frame"
+              style="height: 300px; background-color: white">
+              <span class="sqlcolor" style="color:black"><span class="sqlnumbercolor" style="color:">
+                </span> <span class="sqlkeywordcolor" style="color:mediumblue">SELECT</span> * <span
+                  class="sqlkeywordcolor" style="color:mediumblue">FROM</span> Customers<br><span class="sqlnumbercolor"
+                  style="color:">
+                </span> <span class="sqlkeywordcolor" style="color:mediumblue">WHERE</span> Country=<span
+                  class="sqlstringcolor" style="color:brown">'Mexico'</span>;<span class="sqlnumbercolor"
+                  style="color:">
+                </span> </span>
+            </div>
+            <a class="btn btn-primary rounded-pill text-white px-5 fw-bold" style="width: fit-content;">Try it
+              yourself</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-dark py-4 px-sm-3 px-md-4">
+    <div class="container-fluid">
+      <div class="row gap-3 gap-sm-5 justify-content-center align-items-center pt-5 pb-5">
+        <div class="row gap-3 gap-sm-5">
+          <div
+            class="d-flex flex-column justify-content-center align-items-center bg-success p-5 rounded col-12 col-lg">
+            <h3 class="h1 fw-bold">PHP</h3>
+            <p class="mb-3 mb-sm-5 text-center">A web server programming language</p>
+            <a href="#" class="btn btn-dark rounded-pill px-4 px-sm-5 fw-bold py-2">Learn PHP</a>
+          </div>
+          <div class="d-flex flex-column justify-content-center align-items-center bg-info p-5 rounded col-12 col-lg">
+            <h3 class="h1 fw-bold">JQuery</h3>
+            <p class="mb-3 mb-sm-5 text-center">A JS library for developing web pages</p>
+            <a href="#" class="btn btn-dark rounded-pill px-4 px-sm-5 fw-bold py-2">Learn jQuery</a>
+          </div>
+        </div>
+        <div class="row gap-3 gap-sm-5">
+          <div
+            class="d-flex flex-column justify-content-center align-items-center bg-warning p-5 rounded col-12 col-lg">
+            <h3 class="h1 fw-bold">Java</h3>
+            <p class="mb-3 mb-sm-5 text-center">A programming language</p>
+            <a href="#" class="btn btn-dark rounded-pill px-4 px-sm-5 fw-bold py-2">Learn Java</a>
+          </div>
+          <div
+            class="d-flex flex-column justify-content-center align-items-center bg-secondary p-5 rounded col-12 col-lg">
+            <h3 class="h1 fw-bold">C++</h3>
+            <p class="mb-3 mb-sm-5 text-center">A programming language</p>
+            <a href="#" class="btn btn-dark rounded-pill px-4 px-sm-5 fw-bold py-2">Learn C++</a>
+          </div>
+        </div>
+        <div class="row gap-3 gap-sm-5">
+          <div class="d-flex flex-column justify-content-center align-items-center bg-danger p-5 rounded col-12 col-lg">
+            <h3 class="h1 fw-bold">W3.CSS</h3>
+            <p class="mb-3 mb-sm-5 text-center">A CSS framework for faster and better respansive web pages</p>
+            <a href="#" class="btn btn-dark rounded-pill px-4 px-sm-5 fw-bold py-2">Learn W3.CSS</a>
+          </div>
+          <div class="d-flex flex-column justify-content-center align-items-center bg-light p-5 rounded col-12 col-lg">
+            <h3 class="h1 fw-bold">Bootstrap</h3>
+            <p class="mb-3 mb-sm-5 text-center">A CSS framework for designing better web pages</p>
+            <a href="#" class="btn btn-dark rounded-pill px-4 px-sm-5 fw-bold py-2">Learn Bootstrap</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-dark px-sm-3 px-md-4">
+    <div class="container-fluid">
+      <div class="row gap-3 gap-sm-4 gap-lg-5 justify-content-center align-items-center pb-5">
+        <div class="row gap-3 gap-sm-4 gap-lg-5">
+          <a href="#"
+            class="h3 text-decoration-none bg-success rounded col-12 col-lg fw-bold hover-opacity cus-ll d-flex align-items-center justify-content-center">
+            C
+          </a>
+          <a href="#"
+            class="h3 text-decoration-none bg-info rounded col-12 col-lg fw-bold hover-opacity cus-ll d-flex align-items-center justify-content-center">
+            C#
+          </a>
+        </div>
+        <div class="cus-mll-frame">
+          <a href="#" class="text-decoration-none text-center bg-warning rounded fw-bold hover-opacity cus-mll">
+            R
+          </a>
+
+          <a href="#" class="text-decoration-none text-center bg-secondary rounded fw-bold hover-opacity cus-mll">
+            Kotlin
+          </a>
+
+          <a href="#" class="text-decoration-none text-center bg-danger rounded fw-bold hover-opacity cus-mll">
+            Node.js
+          </a>
+
+          <a href="#" class="text-decoration-none text-center bg-success rounded fw-bold hover-opacity cus-mll">
+            React
+          </a>
+
+          <a href="#" class="text-decoration-none text-center bg-info rounded fw-bold hover-opacity cus-mll">
+            JSON
+          </a>
+
+          <a href="#" class="text-decoration-none text-center bg-warning rounded fw-bold hover-opacity cus-mll">
+            AngularJs
+          </a>
+
+          <a href="#" class="text-decoration-none text-center bg-secondary rounded fw-bold hover-opacity cus-mll">
+            MySQL
+          </a>
+
+          <a href="#" class="text-decoration-none text-center bg-danger rounded fw-bold hover-opacity cus-mll">
+            XML
+          </a>
+
+          <a href="#" class="text-decoration-none text-center bg-success rounded fw-bold hover-opacity cus-mll">
+            Sass
+          </a>
+
+          <a href="#" class="text-decoration-none text-center bg-info rounded fw-bold hover-opacity cus-mll">
+            Icons
+          </a>
+
+          <a href="#" class="text-decoration-none text-center bg-warning rounded fw-bold hover-opacity cus-mll">
+            RWD
+          </a>
+
+          <a href="#" class="text-decoration-none text-center bg-secondary rounded fw-bold hover-opacity cus-mll">
+            Graphics
+          </a>
+
+          <a href="#" class="text-decoration-none text-center bg-danger rounded fw-bold hover-opacity cus-mll">
+            SVG
+          </a>
+
+          <a href="#" class="text-decoration-none text-center bg-success rounded fw-bold hover-opacity cus-mll">
+            Canvas
+          </a>
+
+          <a href="#" class="text-decoration-none text-center bg-info rounded fw-bold hover-opacity cus-mll">
+            Raspberry Pi
+          </a>
+
+          <a href="#" class="text-decoration-none text-center bg-warning rounded fw-bold hover-opacity cus-mll">
+            Cyber Security
+          </a>
+
+          <a href="#" class="text-decoration-none text-center bg-secondary rounded fw-bold hover-opacity cus-mll">
+            Colors
+          </a>
+
+          <a href="#" class="text-decoration-none text-center bg-danger rounded fw-bold hover-opacity cus-mll">
+            Git
+          </a>
+
+          <a href="#" class="text-decoration-none text-center bg-success rounded fw-bold hover-opacity cus-mll">
+            Matplotlib
+          </a>
+
+          <a href="#" class="text-decoration-none text-center bg-info rounded fw-bold hover-opacity cus-mll">
+            NumPy
+          </a>
+
+          <a href="#" class="text-decoration-none text-center bg-warning rounded fw-bold hover-opacity cus-mll">
+            Pandas
+          </a>
+
+          <a href="#" class="text-decoration-none text-center bg-secondary rounded fw-bold hover-opacity cus-mll">
+            SciPy
+          </a>
+
+          <a href="#" class="text-decoration-none text-center bg-danger rounded fw-bold hover-opacity cus-mll">
+            Asp
+          </a>
+
+          <a href="#" class="text-decoration-none text-center bg-success rounded fw-bold hover-opacity cus-mll">
+            Accessibility
+          </a>
+
+          <a href="#" class="text-decoration-none text-center bg-info rounded fw-bold hover-opacity cus-mll">
+            AppML
+          </a>
+
+          <a href="#" class="text-decoration-none text-center bg-warning rounded fw-bold hover-opacity cus-mll">
+            Go
+          </a>
+
+          <a href="#" class="text-decoration-none text-center bg-secondary rounded fw-bold hover-opacity cus-mll">
+            TypeScript
+          </a>
+
+          <a href="#" class="text-decoration-none text-center bg-danger rounded fw-bold hover-opacity cus-mll">
+            Django
+          </a>
+
+          <a href="#" class="text-decoration-none text-center bg-success rounded fw-bold hover-opacity cus-mll">
+            MongoDB
+          </a>
+
+          <a href="#" class="text-decoration-none text-center bg-info rounded fw-bold hover-opacity cus-mll">
+            Statistics
+          </a>
+
+          <a href="#" class="text-decoration-none text-center bg-warning rounded fw-bold hover-opacity cus-mll">
+            Data Science
+          </a>
+
+          <a href="#" class="text-decoration-none text-center bg-secondary rounded fw-bold hover-opacity cus-mll">
+            Typing Speed
+          </a>
+        </div>
+        <div class="cus-mll-frame-2-2">
+          <a href="#" class="text-decoration-none text-center bg-danger rounded fw-bold hover-opacity cus-mll">
+            Exel
+          </a>
+
+          <a href="#" class="text-decoration-none text-center bg-info rounded fw-bold hover-opacity cus-mll">
+            Google Sheets
+          </a>
+
+          <a href="#" class="text-decoration-none text-center bg-success rounded fw-bold hover-opacity cus-mll">
+            Machine Learning
+          </a>
+
+          <a href="#" class="text-decoration-none text-center bg-warning rounded fw-bold hover-opacity cus-mll">
+            Artificial Intelligence
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-dark text-white pt-5">
+    <div class="container">
+      <div class="d-flex flex-column p-0 p-md-5 align-items-center">
+        <h3 class="mx-auto fw-bold mb-3 cus-mt">Code Editor</h3>
+        <p class="mx-auto p-2 mb-5 h5 text-center cus-np">With our online code editor,you can edit code and view the
+          result in your browser
+        </p>
+        <div class="m-0 mx-sm-auto d-flex flex-column">
+          <div class="mb-4">
+            <div class="bg-light rounded-top d-flex justify-content-start align-items-center" style="padding: 0.8rem;">
+              <div class="d-flex column-gap-2 pe-2 pe-sm-5">
+                <span class="rounded-circle d-inline-block" style="width:15px;height:15px;background: #ed594a;"></span>
+                <span class="rounded-circle d-inline-block" style="width:15px;height:15px;background: #fdd800;"></span>
+                <span class="rounded-circle d-inline-block" style="width:15px;height:15px;background: #5ac05a;"></span>
+              </div>
+              <div style="width:65%;">
+                <p class="bg-white px-2 text-dark m-0 rounded small cus-fs-xsm-10">www.w3schools.com/tryit/</p>
+              </div>
+            </div>
+            <div>
+              <ul class="nav nav-tabs bg-light">
+                <li class="nav-item"><a class="nav-link active rounded-0 text-dark" href="#frontend-content"
+                    data-bs-toggle="tab">frontend</a></li>
+                <li class="nav-item"><a class="nav-link rounded-0 text-dark" href="#backend-content"
+                    data-bs-toggle="tab">backend</a></li>
+              </ul>
+              <div class="tab-content">
+                <div class="tab-pane active" id="frontend-content">
+                  <img src="./src/images/codeeditor.gif" alt="frontend code editor workflow" class="img-fluid">
+                </div>
+                <div class="tab-pane" id="backend-content">
+                  <img src="./src/images/best2.gif" alt="backend code editor workflow" class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="btn btn-primary mb-4 text-white fw-bold hover-opacity cus-ffb" href="#">try
+            frontend editor
+            (html/css/js)</a>
+          <a class="btn btn-info fw-bold hover-opacity cus-ffb" href="#">try backend editory
+            (python/php/java/c..)</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-dark pt-5 p-md-5">
+    <div class="container text-white d-flex flex-column justify-content-center align-items-center">
+      <h3 class="fw-bold mt-5 mb-4 text-center cus-mt">W3schools Spaces</h3>
+      <p class="cus-np text-center px-2 fw-bold">if you want to create your own website, check out <a href="#"
+          class="link-success hover-primary">w3schools spaces</a>.</p>
+      <p class="mb-5 cus-np text-center px-2 fw-bold">it is free to use, and does not require any setup:</p>
+      <img src="./src/images/dynamicspaces.gif" alt="dynamic spaces image" class="img-fluid mb-5">
+      <img class="img-fluid mb-5" src="./src/images/how-spaces-works3.png" alt="how spaces work image">
+      <a class="text-white bg-primary h5 text-decoration-none rounded-pill mb-5 hover-opacity text-center cus-seb"
+        href="#">Learn More</a>
+    </div>
+  </section>
+
+  <section class="py-5 bg-secondary">
+    <div class="container d-flex flex-column justify-content-center align-items-center">
+      <h3 class="fw-bold mb-5 cus-mt">My Learning</h3>
+      <p class="mb-3 fw-bold text-center cus-np">Track your progress with our free "My Learning" program</p>
+      <p class="mb-4 fw-bold text-center cus-np">Log in to your account, and start earning points!</p>
+      <img src="./src/images/myl-green-off.png" alt="my accound score image" class="img-fluid mb-4">
+      <a class="text-white bg-primary text-decoration-none rounded-pill mb-5 hover-opacity text-center cus-seb"
+        href="#">sign up for free</a>
+    </div>
+  </section>
+
+  <section class="bg-dark px-3 pt-5 p-md-5">
+    <div class="container text-white d-flex flex-column justify-content-center align-items-center">
+      <h3 class="fw-bold mt-5 mb-4 cus-mt">Become a PRO User</h3>
+      <p class="text-success h4 mb-5">And unlock powerful features:</p>
+      <div class="d-flex flex-column mb-5" style="font-size:1.1rem;">
+        <span class="mb-2 fw-bold">
+          <i class="bi bi-check-circle-fill me-2 fs-5 text-secondary"></i>
+          browse w3schools without ads
+        </span>
+        <span class="mb-2 fw-bold">
+          <i class="bi bi-check-circle-fill me-2 fs-5 text-secondary"></i>
+          website hosting (includes <a href="#">spaces</a> pro)
+        </span>
+        <span class="fw-bold">
+          <i class="bi bi-check-circle-fill me-2 fs-5 text-secondary"></i>
+          access to our <a href="#">html video tutorial</a>
+        </span>
+      </div>
+      <a class="text-white bg-primary h5 text-decoration-none rounded-pill mb-5 hover-opacity text-center cus-seb"
+        href="#">learn more</a>
+    </div>
+  </section>
+
+  <section class="bg-warning" style="padding: 5rem;">
+    <div class="container d-flex flex-column justify-content-center align-items-center">
+      <h3 class="fw-bold mb-4" style="font-size:3.8rem;">color picker</h3>
+      <p class="fw-bold fs-6">w3schools' famous color picker:</p>
+      <a href="#" class="hover-opacity-half">
+        <img class="img-fluid mt-2" src="./src/images/colorpicker.png" alt="color picker image">
+      </a>
+    </div>
+  </section>
+
+  <section class="bg-danger">
+    <div class="container d-flex flex-column justify-content-center align-items-center" style="padding: 5rem 0;">
+      <h3 class="fw-bold mb-2 text-center cus-mt" font-family: 'freckle face' , cursive;">Code Game</h3>
+      <p class="h3 mb-3 text-center cus-np" style="font-family: 'freckle face', cursive;">help the lynx collect pine
+        cones!</p>
+      <img src="./src/images/w3lynx_200.png" alt="w3lynx images" class="img-fluid mt-3 mb-4 hover-opacity-half">
+      <a class="text-white hover-black bg-dark h5 text-decoration-none rounded-pill mt-3 text-center cus-seb"
+        href="#">Play Game</a>
+    </div>
+  </section>
+
+  <section class="bg-dark">
+    <div class="container d-flex flex-column justify-content-center align-items-center text-white"
+      style="padding: 5rem 0;">
+      <h3 class="fw-bold text-center cus-mt">Exercises And Quizzers</h3>
+      <p class="p-4 mb-4 fs-5 fw-bold">Test your skills!</p>
+      <div class="w-100 justify-content-around align-items-center cus-mll-frame-md-2-2">
+        <a class="bg-primary hover-opacity h2 text-decoration-none m-0 p-0 w-100 text-center rounded" href="#"
+          style="padding: 4.5rem 0 !important;">exercises</a>
+        <a class="bg-info hover-opacity h2 text-decoration-none m-0 p-0 w-100 text-center rounded text-dark" href="#"
+          style="padding: 4.5rem 0 !important;">quizzes</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-light">
+    <div class="container d-flex flex-column justify-conetent-center align-items-center" style="padding: 5rem 0;">
+      <h3 class="fw-bold mb-4 cus-mt">Web Templates</h3>
+      <p class="mb-4 fw-bold text-center cus-np">Browse our selection of free responsive HTML Templates
+      </p>
+      <img src="./src/images/w3css_templates.jpg" alt="w3css templates image" class="img-fluid mb-5" style="max-width: 85%;">
+      <a class="text-white bg-dark h5 text-decoration-none rounded-pill text-center border-0 hover-black cus-seb"
+        href="#">Browse Templates</a>
+    </div>
+  </section>
+
+  <section class="bg-dark" style="padding: 5rem 0;position: relative;">
+    <div
+      class="container text-success d-flex flex-column justify-content-center align-items-sm-start align-items-center p-3 p-md-5">
+      <h3 class="cus-lsp cus-fw-500">Kickstart your career</h3>
+      <p class="cus-lsp cus-fw-500<F7>">Get certified by completing a course</p>
+      <button class="bg-primary hover-opacity text-white py-3 rounded-pill border-0 fw-bold cus-seb">Get
+        started</button>
+      <svg id="img-arrow" viewBox="0 0 170 143" fill="none" style="">
+        <path
+          d="M9.7747 42.7064C9.7747 42.7064 19.5575 77.2951 44.4558 84.8113C62.0225 90.1142 81.0061 80.1196 77.791 68.3309C76.0904 62.0955 69.0574 62.4735 65.5106 65.8444C59.1003 71.9368 67.8591 89.7423 77.9205 96.1324C112.816 118.295 161.943 84.5867 161.943 84.5867"
+          stroke="white" stroke-width="2" stroke-linecap="round"></path>
+        <path d="M159.804 93.8429L162.704 84.4917L152.715 80.8293" stroke="white" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round"></path>
+      </svg>
+      <svg id="img-w3Logo" data-name="img-w3Logo" viewBox="0 0 300 300">
+        <defs>
+          <style>
+            .cls-1 {
+              fill: #04aa6b;
+            }
+
+            .cls-2 {
+              font-size: 23px;
+            }
+
+            .cls-2,
+            .cls-3,
+            .cls-4 {
+              fill: #fff;
+            }
+
+            .cls-2,
+            .cls-3 {
+              font-family: RobotoMono-Medium, Roboto Mono;
+              font-weight: 500;
+            }
+
+            .cls-3 {
+              font-size: 20.08px;
+            }
+          </style>
+        </defs>
+        <circle class="cls-1" cx="150" cy="150" r="146.47" transform="translate(-62.13 150) rotate(-45)"></circle>
+        <text class="cls-2" transform="translate(93.54 63.89) rotate(-29.5)">w</text><text class="cls-2"
+          transform="translate(107.13 56.35) rotate(-20.8)">3</text><text class="cls-2"
+          transform="matrix(0.98, -0.21, 0.21, 0.98, 121.68, 50.97)">s</text><text class="cls-2"
+          transform="translate(136.89 47.84) rotate(-3.47)">c</text><text class="cls-2"
+          transform="translate(152.39 47.03) rotate(5.12)">h</text><text class="cls-2"
+          transform="translate(167.85 48.54) rotate(13.72)">o</text><text class="cls-2"
+          transform="translate(182.89 52.35) rotate(22.34)">o</text><text class="cls-2"
+          transform="matrix(0.86, 0.52, -0.52, 0.86, 197.18, 58.36)">l</text><text class="cls-2"
+          transform="matrix(0.77, 0.64, -0.64, 0.77, 210.4, 66.46)">s</text><text class="cls-3"
+          transform="translate(35.51 186.66) rotate(69.37)"> </text><text class="cls-3"
+          transform="matrix(0.47, 0.88, -0.88, 0.47, 41.27, 201.28)">C</text><text class="cls-3"
+          transform="matrix(0.58, 0.81, -0.81, 0.58, 48.91, 215.03)">E</text><text class="cls-3"
+          transform="matrix(0.67, 0.74, -0.74, 0.67, 58.13, 227.36)">R</text><text class="cls-3"
+          transform="translate(69.16 238.92) rotate(39.44)">T</text><text class="cls-3"
+          transform="matrix(0.85, 0.53, -0.53, 0.85, 81.47, 248.73)">I</text><text class="cls-3"
+          transform="translate(94.94 256.83) rotate(24.36)">F</text><text class="cls-3"
+          transform="translate(109.34 263.09) rotate(16.83)">I</text><text class="cls-3"
+          transform="translate(124.46 267.41) rotate(9.34)">E</text><text class="cls-3"
+          transform="translate(139.99 269.73) rotate(1.88)">D</text><text class="cls-3"
+          transform="translate(155.7 270.01) rotate(-5.58)"> </text><text class="cls-3"
+          transform="translate(171.32 268.24) rotate(-13.06)"> </text><text class="cls-2"
+          transform="translate(187.55 266.81) rotate(-21.04)">.</text><text class="cls-3"
+          transform="translate(203.27 257.7) rotate(-29.24)"> </text><text class="cls-3"
+          transform="translate(216.84 249.83) rotate(-36.75)"> </text><text class="cls-3"
+          transform="translate(229.26 240.26) rotate(-44.15)">2</text><text class="cls-3"
+          transform="translate(240.39 229.13) rotate(-51.62)">0</text><text class="cls-3"
+          transform="translate(249.97 216.63) rotate(-59.17)">2</text><text class="cls-3"
+          transform="matrix(0.4, -0.92, 0.92, 0.4, 257.81, 203.04)">3</text>
+        <path class="cls-4"
+          d="M196.64,136.31s3.53,3.8,8.5,3.8c3.9,0,6.75-2.37,6.75-5.59,0-4-3.64-5.81-8-5.81h-2.59l-1.53-3.48,6.86-8.13a34.07,34.07,0,0,1,2.7-2.85s-1.11,0-3.33,0H194.79v-5.86H217.7v4.28l-9.19,10.61c5.18.74,10.24,4.43,10.24,10.92s-4.85,12.3-13.19,12.3a17.36,17.36,0,0,1-12.41-5Z">
+        </path>
+        <path class="cls-4"
+          d="M152,144.24l30.24,53.86,14.94-26.61L168.6,120.63H135.36l-13.78,24.53-13.77-24.53H77.93l43.5,77.46.15-.28.16.28Z">
+        </path>
+      </svg>
+    </div>
+  </section>
+
+  <!--TV Slider Section-->
+  <section style="margin: 6rem 0">
+    <div class="container text-center" style="font-weight: 500;">
+      <h3 class="display-4 fw-bold">How To Section</h3>
+      <p class="h5 mb-4">Code snippets for HTML, CSS and JavaScript</p>
+      <p class="mb-4">For example, how to create a slideshow:</p>
+      <div class="d-flex flex-column">
+        <div style="max-width:942px;" class="mb-4 mx-sm-auto">
+          <div class="bg-light rounded-top d-flex justify-content-start align-items-center" style="padding: 0.8rem;">
+            <div class="d-flex column-gap-2 px-2 pe-sm-5">
+              <span class="rounded-circle d-inline-block" style="width:15px;height:15px;background: #ed594a;"></span>
+              <span class="rounded-circle d-inline-block" style="width:15px;height:15px;background: #fdd800;"></span>
+              <span class="rounded-circle d-inline-block" style="width:15px;height:15px;background: #5ac05a;"></span>
+            </div>
+            <div style="width:65%;" class="text-start">
+              <p class="bg-white px-2 text-dark m-0 rounded small cus-fs-xsm-10">www.w3schools.com/tryit/</p>
+            </div>
+          </div>
+
+          <!--slider-->
+          <div class="bg-light" style="padding: 0.3rem 0.3rem 4.5rem 0.3rem;">
+            <div class="carousel slide position-relative" data-bs-ride="carousel" id="carousel-slider">
+              <div class="carousel-indicators" style="margin-bottom: -50px;">
+                <button type="button" data-bs-target="#carousel-slider" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carousel-slider" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carousel-slider" data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./src/images/img_nature_wide.jpg" alt="nature mountaine image" class="img-fluid">
+                </div>
+                <div class="carousel-item">
+                  <img src="./src/images/img_snow_wide.jpg" alt="snow mountaine image" class="img-fluid">
+                </div>
+                <div class="carousel-item">
+                  <img src="./src/images/img_mountains_wide.jpg" alt="mountain and river image" class="img-fluid">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carousel-slider"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carousel-slider"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <div class="bg-dark mx-auto" style="width: 3rem;height: 5.2rem;"></div>
+          <a href="#" class="tv-stand h5 bg-dark text-white rounded-pill text-decoration-none hover-btn-primary">Learn
+            How To</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-dark">
+    <div class="container-fluid" style="padding: 4rem 2rem;">
+      <div class="d-flex flex-column flex-lg-row justify-content-between align-items-center">
+        <div class="mb-5 mb-lg-0 d-flex flex-column flex-lg-row cus-of justify-content-center align-items-center">
+          <div class="cus-dg r3">
+            <a href="#" class="bg-white rounded text-decoration-none fs-6 fw-bold text-dark hover-opacity">QUIZZES</a>
+            <a href="#" class="bg-white rounded text-decoration-none fs-6 fw-bold text-dark hover-opacity">EXERCISES</a>
+            <a href="#"
+              class="bg-white rounded text-decoration-none fs-6 fw-bold text-dark hover-opacity">CERTIFICATES</a>
+          </div>
+          <div class="cus-dg pt-3 pt-lg-0">
+            <a href="#" class="bg-white rounded text-decoration-none fs-6 fw-bold text-dark hover-opacity">UPGRADE</a>
+            <a href="#" class="bg-white rounded text-decoration-none fs-6 fw-bold text-dark hover-opacity">SPACES</a>
+            <a href="#" class="bg-white rounded text-decoration-none fs-6 fw-bold text-dark hover-opacity">SUPPORT</a>
+            <a href="#"
+              class="bg-white rounded text-decoration-none fs-6 fw-bold text-dark hover-opacity">NEWSLETTER</a>
+          </div>
+        </div>
+        <div class="text-white">
+          <a href="#" class="text-white text-decoration-none hover-primary"
+            style="font-family: 'Source Sans Pro', sans-serif;font-size: 0.9rem;font-weight: 600; letter-spacing: 0.3rem;">FORUM</a>
+          <span class="px-2">|</span>
+          <a href="#" class="text-white text-decoration-none hover-primary"
+            style="font-family: 'Source Sans Pro', sans-serif;font-size: 0.9rem;font-weight: 600; letter-spacing: 0.3rem;">ABOUT</a>
+        </div>
+      </div>
+
+      <div class="my-4" id="social-icon-list">
+        <ul class="nav justify-content-center justify-content-lg-end" style="font-size: 1.3rem;">
+          <li>
+            <a href="#"
+              class="text-white rounded hover-white d-flex justify-content-center align-items-center text-decoration-none"
+              style="width: 50px;height: 50px;" title="W3Schools on Facebook">
+              <i class="fab fa-facebook-square hover-facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#"
+              class="text-white rounded hover-white d-flex justify-content-center align-items-center text-decoration-none"
+              style="width: 50px;height: 50px;" title="W3Schools on Instagram">
+              <i class="fa-brands fa-instagram hover-instagram"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#"
+              class="text-white rounded hover-white d-flex justify-content-center align-items-center text-decoration-none"
+              style="width: 50px;height: 50px;" title="W3Schools on linkedin">
+              <i class="fa-brands fa-linkedin hover-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#"
+              class="text-white rounded hover-white d-flex justify-content-center align-items-center text-decoration-none"
+              style="width: 50px;height: 50px;" title="W3Schools on Discord">
+              <i class="fa-brands fa-discord hover-discord"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="text-white text-center mb-4" style="font-size:0.9rem;">
+        <p>
+          W3Schools is optimized for learning, testing, and training. Examples might be simplified to improve reading
+          and basic understanding. Tutorials, references, and examples are constantly reviewed to avoid errors, but we
+          cannot warrant full correctness of all content. While using this site, you agree to have read and accepted our
+          <a href="#" class="text-white hover-primary">terms of use</a>, <a href="#"
+            class="text-white hover-primary">cookie and privacy policy</a>.
+          <a href="#" class="text-white hover-primary">Copyright 1999-2023</a> by Refsnes Data. All Rights Reserved.
+        </p>
+      </div>
+
+      <div class="text-center" style="font-size: 2.5rem;">
+        <a href="#" class="text-white hover-opacity-half">
+          <i class="fa-regular fa-thumbs-up"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./src/scripts/script.js"></script>
+</body>
+
+</html>
