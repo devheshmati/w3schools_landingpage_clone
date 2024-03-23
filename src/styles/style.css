@@ -12,6 +12,10 @@
   width: 50%;
 }
 
+.cus-round {
+  border-radius: 10px;
+}
+
 .cus-btn {
   border: none;
   outline: none;
